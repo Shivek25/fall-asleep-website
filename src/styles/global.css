@@ -7,15 +7,15 @@
 
 @theme {
   /* Background layers */
-  --color-drift-bg: #0f1117;
-  --color-drift-surface: #1a1d27;
-  --color-drift-surface-raised: #242836;
-  --color-drift-surface-hover: #2d3243;
+  --color-drift-bg: #0f172a;
+  --color-drift-surface: rgba(30, 41, 59, 0.7);
+  --color-drift-surface-raised: rgba(51, 65, 85, 0.8);
+  --color-drift-surface-hover: rgba(71, 85, 105, 0.9);
 
   /* Text */
-  --color-drift-text: #e2e4ea;
-  --color-drift-text-muted: #8b8fa3;
-  --color-drift-text-dim: #5a5e72;
+  --color-drift-text: #f8fafc;
+  --color-drift-text-muted: #cbd5e1;
+  --color-drift-text-dim: #94a3b8;
 
   /* Accent — muted blue */
   --color-drift-accent: #6e8bef;
@@ -58,7 +58,8 @@
 
 html {
   font-family: var(--font-drift);
-  background-color: var(--color-drift-bg);
+  background: linear-gradient(135deg, #0f172a 0%, #020617 100%);
+  background-attachment: fixed;
   color: var(--color-drift-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -69,6 +70,7 @@ html {
 body {
   margin: 0;
   min-height: 100dvh;
+  background: transparent;
   line-height: 1.6;
   letter-spacing: 0.01em;
 }

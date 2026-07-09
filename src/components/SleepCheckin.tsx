@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'preact/hooks';
 import { getItem, setItem } from '../lib/storage';
-import TrendChart from './TrendChart';
+import TrendChart from './TrendChart.tsx';
 
 interface CheckinEntry {
   date: string; // YYYY-MM-DD
