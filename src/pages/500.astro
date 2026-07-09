@@ -1,0 +1,75 @@
+---
+import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+interface Props {
+  error?: unknown;
+}
+
+const { error } = Astro.props;
+---
+
+<BaseLayout title="Server Error" description="Something went wrong on our end.">
+  <div class="error-page">
+    <div class="error-page__content">
+      <div class="error-page__icon" aria-hidden="true">💫</div>
+      <h1 class="error-page__title">500</h1>
+      <p class="error-page__subtitle">The system needs some rest.</p>
+      <p class="error-page__desc">Something went unexpectedly wrong. We'll look into it.</p>
+      
+      <a href="/" class="drift-btn drift-btn-primary error-page__btn">
+        Return Home
+      </a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .error-page {
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .error-page__content {
+    max-width: 24rem;
+    width: 100%;
+  }
+  
+  .error-page__icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 0 12px rgba(255, 200, 50, 0.2));
+  }
+  
+  .error-page__title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+    color: var(--color-drift-text);
+  }
+  
+  .error-page__subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.5rem 0 1rem;
+    color: var(--color-drift-text-muted);
+  }
+  
+  .error-page__desc {
+    font-size: 1rem;
+    color: var(--color-drift-text-dim);
+    margin: 0 0 2rem;
+  }
+  
+  .error-page__btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+</style>

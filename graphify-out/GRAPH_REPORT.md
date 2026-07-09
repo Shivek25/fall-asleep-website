@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 59 nodes · 67 edges · 7 communities
+- 60 nodes · 67 edges · 8 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `420bf2c2`
+- Built from commit: `a1e51693`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -25,19 +25,19 @@
 ## God Nodes (most connected - your core abstractions)
 1. `🌙 Fall Asleep — Shutdown Protocol` - 8 edges
 2. `setItem()` - 4 edges
-3. `getItem()` - 3 edges
-4. `isStorageAvailable()` - 3 edges
-5. `playChime()` - 3 edges
-6. `playBreathingCue()` - 3 edges
-7. `Development` - 2 edges
-8. `Deployment` - 2 edges
-9. `removeItem()` - 2 edges
-10. `CalmingStatement` - 2 edges
+3. `playChime()` - 3 edges
+4. `playBreathingCue()` - 3 edges
+5. `getItem()` - 3 edges
+6. `isStorageAvailable()` - 3 edges
+7. `CalmingStatement` - 2 edges
+8. `calmingStatements` - 2 edges
+9. `wordBank` - 2 edges
+10. `shuffleArray()` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (7 total, 0 thin omitted)
+## Communities (8 total, 0 thin omitted)
 
 ### Community 0 - "Breathing Exercise"
 Cohesion: 0.23
@@ -64,7 +64,7 @@ Cohesion: 0.47
 Nodes (3): SPEEDS, shuffleArray(), wordBank
 
 ## Knowledge Gaps
-- **22 isolated node(s):** `Features`, `Privacy`, `Tech Stack`, `code:bash (# Install dependencies)`, `code:bash (npm run build)` (+17 more)
+- **22 isolated node(s):** `BreathingPattern`, `PATTERNS`, `Phase`, `PHASE_LABELS`, `PHASE_COLORS` (+17 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
@@ -74,5 +74,5 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **Why does `getItem()` connect `Cognitive Shuffle` to `Sleep Check-in`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **What connects `Features`, `Privacy`, `Tech Stack` to the rest of the system?**
+- **What connects `BreathingPattern`, `PATTERNS`, `Phase` to the rest of the system?**
   _22 weakly-connected nodes found - possible documentation gaps or missing edges._
