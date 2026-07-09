@@ -5,6 +5,7 @@ interface Props {
   image?: string;
   canonicalURL?: string;
 }
+import '../styles/global.css';
 import Starfield from '../components/Starfield.astro';
 const { 
   title, 
@@ -52,6 +53,67 @@ const {
     <main id="main-content">
       <slot />
     </main>
+
     <slot name="nav" />
   </body>
 </html>
+
+
+
+<style is:global>
+  /* Global Page Styles for MPA Text Pages (About, Contact, Privacy, Terms) */
+  .page-container {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 2rem;
+    min-height: calc(100vh - 150px);
+  }
+  .page-header {
+    margin-bottom: 2.5rem;
+  }
+  .back-link {
+    color: var(--color-drift-text-muted);
+    text-decoration: none;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: inline-block;
+    transition: color 0.2s ease;
+  }
+  .back-link:hover {
+    color: var(--color-drift-text);
+  }
+  .page-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-drift-text);
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.02em;
+  }
+  .page-content {
+    color: var(--color-drift-text-muted);
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+  .page-content h2 {
+    color: var(--color-drift-text);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2.5rem 0 1rem;
+    letter-spacing: -0.01em;
+  }
+  .page-content p, .page-content ul {
+    margin-bottom: 1.5rem;
+  }
+  .page-content li {
+    margin-bottom: 0.5rem;
+  }
+  .page-content a {
+    color: var(--color-drift-accent-glow);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+  .page-content a:hover {
+    opacity: 0.8;
+  }
+</style>

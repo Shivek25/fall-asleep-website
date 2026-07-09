@@ -52,6 +52,16 @@ const features = [
       <div class="home__moon" aria-hidden="true">🌙</div>
       <h1 class="home__title">Fall Asleep</h1>
       <p class="home__subtitle">Your nightly companion for real rest</p>
+      
+      <nav class="home__hero-links">
+        <a href="/about">About Us</a>
+        <span class="separator">•</span>
+        <a href="/privacy-policy">Privacy</a>
+        <span class="separator">•</span>
+        <a href="/terms">Terms</a>
+        <span class="separator">•</span>
+        <a href="/contact">Contact</a>
+      </nav>
     </header>
 
     <nav class="home__features" aria-label="Sleep tools">
@@ -71,12 +81,7 @@ const features = [
       ))}
     </nav>
 
-    <footer class="home__footer">
-      <p class="home__privacy">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-        All data stays on your device. No accounts, no cloud, no tracking.
-      </p>
-    </footer>
+    <!-- Footer is now globally provided by BaseLayout -->
   </div>
 
   <article class="seo-article">
@@ -96,8 +101,141 @@ const features = [
       <h3>Your Private Nightly Companion</h3>
       <p>Unlike other applications that aggressively track your data, require account sign-ups, or stimulate your brain with bright screens and notifications, this tool is intentionally built for the dark. Everything stays locally on your device—no accounts, no tracking, and no cloud processing. The deep dark theme, muted accent colors, and ultra-calming animations are carefully crafted to preserve your precious night vision and minimize blue light exposure before bed. When you use this app, you are engaging in a safe, entirely private space designed solely to help you find peace.</p>
       <p>If you are exhausted but your mind simply won't shut down, stop fighting it. Use the Cognitive Shuffle to scramble your racing thoughts, the Brain Dump journal to securely lock away your lingering worries, or the Circuit Breaker to ground yourself in the present moment. Explore these scientifically proven ways to fall asleep, find the unique rhythm that works best for your body, and discover exactly how effortless it can be to fall asleep fast, wake up truly rested, and reclaim your nights.</p>
+
+      <h3 class="faq-title">Frequently Asked Questions</h3>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Is it correct to say I fall asleep?</summary>
+          <p>Yes, "fall asleep" is the correct and most commonly used English phrase to describe the natural process of transitioning from being awake to sleeping.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What does "fall asleep" mean?</summary>
+          <p>To "fall asleep" means to unintentionally or naturally enter a state of sleep, transitioning from a state of conscious wakefulness into a resting, unconscious state.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is it fall to sleep or fall asleep?</summary>
+          <p>The correct phrase is "fall asleep." While you can say "go to sleep," saying "fall to sleep" is grammatically incorrect in standard English.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Why does Gen Z sleep late?</summary>
+          <p>Gen Z often sleeps late due to a combination of delayed circadian rhythms common in young adults, increased nighttime screen time, digital stimulation, and "revenge bedtime procrastination"—where people sacrifice sleep to reclaim personal time after a busy day.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How to fall asleep faster?</summary>
+          <p>To fall asleep faster, you can use mental techniques like Cognitive Shuffling to distract your brain, practice deep breathing exercises (such as the 4-7-8 method) to lower your heart rate, and maintain a cool, completely dark room without blue light from screens.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How to fall asleep in 10 seconds?</summary>
+          <p>While falling asleep in literally 10 seconds is highly difficult, the military sleep method is designed to help you sleep rapidly. It involves consciously relaxing every muscle in your face, dropping your shoulders, exhaling deeply, and clearing your mind with a calming visualization.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Why do I fall asleep after I eat?</summary>
+          <p>Feeling tired after eating, known as postprandial somnolence, occurs because your body redirects blood flow to your digestive system. Consuming large meals or foods rich in carbohydrates and tryptophan also triggers the production of serotonin and melatonin, which make you sleepy.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Why can't I fall asleep?</summary>
+          <p>Inability to fall asleep is frequently caused by nighttime anxiety, stress, consuming caffeine late in the day, an inconsistent sleep schedule, or overstimulation from blue light emitted by phones and computers before bed.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How long does it take to fall asleep?</summary>
+          <p>For a healthy adult, sleep latency (the time it takes to fall asleep) is typically between 10 to 20 minutes. If it consistently takes you longer than 30 minutes, you might be dealing with stress or insomnia.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How to fall asleep instantly?</summary>
+          <p>Although instant sleep is biologically impossible unless you are severely sleep-deprived, you can achieve near-instant rest by combining progressive muscle relaxation with a mental distraction technique (like the Cognitive Shuffle) to quickly bypass racing thoughts.</p>
+        </details>
+      </div>
     </div>
   </article>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is it correct to say I fall asleep?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Yes, &quot;fall asleep&quot; is the correct and most commonly used English phrase to describe the natural process of transitioning from being awake to sleeping.</p>"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does \"fall asleep\" mean?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>To &quot;fall asleep&quot; means to unintentionally or naturally enter a state of sleep, transitioning from a state of conscious wakefulness into a resting, unconscious state.</p>"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it fall to sleep or fall asleep?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>The correct phrase is &quot;fall asleep.&quot; While you can say &quot;go to sleep,&quot; saying &quot;fall to sleep&quot; is grammatically incorrect in standard English.</p>"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Gen Z sleep late?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Gen Z often sleeps late due to a combination of delayed circadian rhythms common in young adults, increased nighttime screen time, digital stimulation, and &quot;revenge bedtime procrastination&quot;—where people sacrifice sleep to reclaim personal time after a busy day.</p>"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to fall asleep faster?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>To fall asleep faster, you can use mental techniques like Cognitive Shuffling to distract your brain, practice deep breathing exercises (such as the 4-7-8 method) to lower your heart rate, and maintain a cool, completely dark room without blue light from screens.</p>"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to fall asleep in 10 seconds?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>While falling asleep in literally 10 seconds is highly difficult, the military sleep method is designed to help you sleep rapidly. It involves consciously relaxing every muscle in your face, dropping your shoulders, exhaling deeply, and clearing your mind with a calming visualization.</p>"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do I fall asleep after I eat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Feeling tired after eating, known as postprandial somnolence, occurs because your body redirects blood flow to your digestive system. Consuming large meals or foods rich in carbohydrates and tryptophan also triggers the production of serotonin and melatonin, which make you sleepy.</p>"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why can't I fall asleep?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Inability to fall asleep is frequently caused by nighttime anxiety, stress, consuming caffeine late in the day, an inconsistent sleep schedule, or overstimulation from blue light emitted by phones and computers before bed.</p>"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take to fall asleep?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>For a healthy adult, sleep latency (the time it takes to fall asleep) is typically between 10 to 20 minutes. If it consistently takes you longer than 30 minutes, you might be dealing with stress or insomnia.</p>"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to fall asleep instantly?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Although instant sleep is biologically impossible unless you are severely sleep-deprived, you can achieve near-instant rest by combining progressive muscle relaxation with a mental distraction technique (like the Cognitive Shuffle) to quickly bypass racing thoughts.</p>"
+        }
+      }
+    ]
+  }
+  </script>
 
   <Navigation slot="nav" />
 </BaseLayout>
@@ -140,6 +278,31 @@ const features = [
     margin: 0.375rem 0 0;
     font-weight: 300;
     letter-spacing: 0.02em;
+  }
+
+  .home__hero-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  .home__hero-links a {
+    color: var(--color-drift-text-muted);
+    text-decoration: none;
+    font-size: 0.8125rem;
+    transition: color 0.2s ease;
+  }
+  .home__hero-links a:hover {
+    color: var(--color-drift-text);
+  }
+  .home__hero-links .separator {
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 0.8125rem;
+    user-select: none;
+    display: inline-block;
+    transform: translateY(-1px);
   }
 
   .home__features {
@@ -206,19 +369,7 @@ const features = [
     color: var(--card-accent);
   }
 
-  .home__footer {
-    padding-top: 2rem;
-    text-align: center;
-  }
-
-  .home__privacy {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.375rem;
-    font-size: 0.6875rem;
-    color: var(--color-drift-text-dim);
-    margin: 0;
-  }
+  /* Global footer styles moved to BaseLayout.astro */
 
   @media (prefers-reduced-motion: reduce) {
     .home__card-arrow {
@@ -261,5 +412,66 @@ const features = [
 
   .seo-article__inner p {
     margin-bottom: 1.5rem;
+  }
+
+  .faq-title {
+    margin-top: 4rem !important;
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .faq-list {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    background: transparent;
+    overflow: hidden;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 1.25rem 1.5rem;
+  }
+
+  .faq-item:last-child {
+    border-bottom: none;
+  }
+
+  .faq-item summary {
+    font-weight: 500;
+    color: var(--color-drift-text);
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-right: 2rem;
+    outline: none;
+  }
+  
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-item summary::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23cbd5e1' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.2s ease;
+  }
+
+  .faq-item[open] summary::after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  .faq-item p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: var(--color-drift-text-muted);
+    line-height: 1.6;
   }
 </style>
