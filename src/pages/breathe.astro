@@ -1,0 +1,44 @@
+---
+import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
+import BackButton from '../components/BackButton.astro';
+import BreathingExercise from '../components/BreathingExercise.tsx';
+---
+
+<BaseLayout title="Guided Breathing" description="Breathe deeply with visual guidance. Choose from multiple calming breathing patterns to help you relax and sleep.">
+  <div class="page">
+    <div class="page__header">
+      <BackButton />
+      <h1 class="page__title">Guided Breathing</h1>
+      <p class="page__desc">Breathe deeply, sleep soundly</p>
+    </div>
+    <BreathingExercise client:load />
+  </div>
+  <Navigation slot="nav" />
+</BaseLayout>
+
+<style>
+  .page {
+    max-width: 32rem;
+    margin: 0 auto;
+    padding: 1rem 1rem 6rem;
+  }
+
+  .page__header {
+    margin-bottom: 1rem;
+  }
+
+  .page__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.75rem 0 0.25rem;
+    color: var(--color-drift-text);
+  }
+
+  .page__desc {
+    font-size: 0.875rem;
+    color: var(--color-drift-text-muted);
+    margin: 0;
+  }
+</style>
