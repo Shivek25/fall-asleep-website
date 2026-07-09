@@ -1,10 +1,16 @@
----
 interface Props {
   title: string;
   description?: string;
+  image?: string;
+  canonicalURL?: string;
 }
 import Starfield from '../components/Starfield.astro';
-const { title, description = 'Your nightly companion for real rest — fall asleep faster, stay asleep, wake rested.' } = Astro.props;
+const { 
+  title, 
+  description = 'Having trouble sleeping? Discover proven ways to fall asleep faster. Fall asleep fast using cognitive shuffling, guided breathing, and grounding exercises.',
+  image = '/favicon.svg',
+  canonicalURL = 'https://fallasleep.app/' // Assuming a default canonical URL base
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -12,10 +18,25 @@ const { title, description = 'Your nightly companion for real rest — fall asle
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0f1117" />
-    <meta name="description" content={description} />
-    <meta name="color-scheme" content="dark" />
     <title>{title} — Fall Asleep</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={`${title} — Fall Asleep`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta property="og:site_name" content="Fall Asleep" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={`${title} — Fall Asleep`} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={image} />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href={canonicalURL} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
