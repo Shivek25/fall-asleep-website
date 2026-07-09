@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.output/
+.astro/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Graphify - keep graph.json committed, ignore temp files
+graphify-out/memory/
+graphify-out/*.html
+
+# Logs
+*.log
+npm-debug.log*
