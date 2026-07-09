@@ -1,6 +1,6 @@
 /**
  * localStorage wrapper with typed get/set and JSON serialization.
- * All Drift data stays on the device — nothing leaves the browser.
+ * All Fall Asleep data stays on the device — nothing leaves the browser.
  */
 
 const PREFIX = 'drift-';

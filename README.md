@@ -1,8 +1,8 @@
-# 🌙 Drift — Shutdown Protocol
+# 🌙 Fall Asleep — Shutdown Protocol
 
 > Your nightly companion for real rest.
 
-**Drift** is a privacy-first web app designed for use in the dark, in bed, on your phone or laptop when you can't sleep. It requires zero setup and zero accounts.
+**Fall Asleep** is a privacy-first web app designed for use in the dark, in bed, on your phone or laptop when you can't sleep. It requires zero setup and zero accounts.
 
 ## Features
 

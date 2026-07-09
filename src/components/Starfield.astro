@@ -1,0 +1,110 @@
+---
+// Generate random stars at build time so they don't require client JS
+const generateStars = (count: number) => {
+  const stars = [];
+  for (let i = 0; i < count; i++) {
+    const x = Math.floor(Math.random() * 100);
+    const y = Math.floor(Math.random() * 100);
+    const opacity = (Math.random() * 0.3 + 0.1).toFixed(2);
+    stars.push(`${x}vw ${y}vh rgba(255, 255, 255, ${opacity})`);
+  }
+  return stars.join(', ');
+};
+
+const starsSmall = generateStars(50);
+const starsMedium = generateStars(25);
+const starsLarge = generateStars(10);
+---
+
+<div class="starfield" aria-hidden="true">
+  <div id="stars-sm"></div>
+  <div id="stars-md"></div>
+  <div id="stars-lg"></div>
+</div>
+
+<style define:vars={{ starsSmall, starsMedium, starsLarge }}>
+  .starfield {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1; /* Behind all content */
+    overflow: hidden;
+  }
+
+  /* Small stars */
+  #stars-sm {
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: var(--starsSmall);
+    animation: animStar 120s linear infinite;
+  }
+  #stars-sm::after {
+    content: " ";
+    position: absolute;
+    top: 100vh;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: var(--starsSmall);
+  }
+
+  /* Medium stars */
+  #stars-md {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: var(--starsMedium);
+    animation: animStar 90s linear infinite;
+  }
+  #stars-md::after {
+    content: " ";
+    position: absolute;
+    top: 100vh;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: var(--starsMedium);
+  }
+
+  /* Large stars */
+  #stars-lg {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: var(--starsLarge);
+    animation: animStar 60s linear infinite;
+  }
+  #stars-lg::after {
+    content: " ";
+    position: absolute;
+    top: 100vh;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: var(--starsLarge);
+  }
+
+  @keyframes animStar {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100vh);
+    }
+  }
+
+  /* Respect reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    #stars-sm, #stars-md, #stars-lg {
+      animation: none;
+    }
+  }
+</style>

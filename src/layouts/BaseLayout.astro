@@ -3,7 +3,7 @@ interface Props {
   title: string;
   description?: string;
 }
-
+import Starfield from '../components/Starfield.astro';
 const { title, description = 'Your nightly companion for real rest — fall asleep faster, stay asleep, wake rested.' } = Astro.props;
 ---
 
@@ -15,7 +15,7 @@ const { title, description = 'Your nightly companion for real rest — fall asle
     <meta name="theme-color" content="#0f1117" />
     <meta name="description" content={description} />
     <meta name="color-scheme" content="dark" />
-    <title>{title} — Drift</title>
+    <title>{title} — Fall Asleep</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,6 +25,7 @@ const { title, description = 'Your nightly companion for real rest — fall asle
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body>
+    <Starfield />
     <a href="#main-content" class="skip-link">Skip to content</a>
     <main id="main-content">
       <slot />
