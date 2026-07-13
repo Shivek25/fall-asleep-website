@@ -1,4 +1,4 @@
-# Graph Report - FallAsleep  (2026-07-11)
+# Graph Report - FallAsleep  (2026-07-13)
 
 ## Corpus Check
 - 13 files · ~68,015 words
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0f26c6a4`
+- Built from commit: `73309adf`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 

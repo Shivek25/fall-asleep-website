@@ -30,3 +30,9 @@ Thumbs.db
 # Graphify temp files
 graphify-out/memory/
 graphify-out/*.html
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example

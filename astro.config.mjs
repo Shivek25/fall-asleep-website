@@ -8,6 +8,7 @@ export default defineConfig({
   site: 'https://fallasleep.pages.dev',
   output: 'static',
   integrations: [preact()],
+
   vite: {
     plugins: [tailwindcss()],
   },
