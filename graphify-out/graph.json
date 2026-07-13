@@ -8,540 +8,540 @@
       "file_type": "code",
       "source_file": "astro.config.mjs",
       "source_location": "L1",
-      "id": "astro_config_mjs",
       "community": 6,
-      "norm_label": "astro.config.mjs"
+      "norm_label": "astro.config.mjs",
+      "id": "astro_config_mjs"
     },
     {
       "label": "BreathingExercise.tsx",
       "file_type": "code",
       "source_file": "src/components/BreathingExercise.tsx",
       "source_location": "L1",
-      "id": "src_components_breathingexercise_tsx",
       "community": 0,
-      "norm_label": "breathingexercise.tsx"
+      "norm_label": "breathingexercise.tsx",
+      "id": "src_components_breathingexercise_tsx"
     },
     {
       "label": "BreathingPattern",
       "file_type": "code",
       "source_file": "src/components/BreathingExercise.tsx",
       "source_location": "L4",
-      "id": "components_breathingexercise_breathingpattern",
       "community": 0,
-      "norm_label": "breathingpattern"
+      "norm_label": "breathingpattern",
+      "id": "components_breathingexercise_breathingpattern"
     },
     {
       "label": "PATTERNS",
       "file_type": "code",
       "source_file": "src/components/BreathingExercise.tsx",
       "source_location": "L12",
-      "id": "components_breathingexercise_patterns",
       "community": 0,
-      "norm_label": "patterns"
+      "norm_label": "patterns",
+      "id": "components_breathingexercise_patterns"
     },
     {
       "label": "Phase",
       "file_type": "code",
       "source_file": "src/components/BreathingExercise.tsx",
       "source_location": "L18",
-      "id": "components_breathingexercise_phase",
       "community": 0,
-      "norm_label": "phase"
+      "norm_label": "phase",
+      "id": "components_breathingexercise_phase"
     },
     {
       "label": "PHASE_LABELS",
       "file_type": "code",
       "source_file": "src/components/BreathingExercise.tsx",
       "source_location": "L20",
-      "id": "components_breathingexercise_phase_labels",
       "community": 0,
-      "norm_label": "phase_labels"
+      "norm_label": "phase_labels",
+      "id": "components_breathingexercise_phase_labels"
     },
     {
       "label": "PHASE_COLORS",
       "file_type": "code",
       "source_file": "src/components/BreathingExercise.tsx",
       "source_location": "L27",
-      "id": "components_breathingexercise_phase_colors",
       "community": 0,
-      "norm_label": "phase_colors"
+      "norm_label": "phase_colors",
+      "id": "components_breathingexercise_phase_colors"
     },
     {
       "label": "BreathingExercise()",
       "file_type": "code",
       "source_file": "src/components/BreathingExercise.tsx",
       "source_location": "L34",
-      "id": "components_breathingexercise_breathingexercise",
       "community": 0,
-      "norm_label": "breathingexercise()"
+      "norm_label": "breathingexercise()",
+      "id": "components_breathingexercise_breathingexercise"
     },
     {
       "label": "CircuitBreaker.tsx",
       "file_type": "code",
       "source_file": "src/components/CircuitBreaker.tsx",
       "source_location": "L1",
-      "id": "src_components_circuitbreaker_tsx",
       "community": 3,
-      "norm_label": "circuitbreaker.tsx"
+      "norm_label": "circuitbreaker.tsx",
+      "id": "src_components_circuitbreaker_tsx"
     },
     {
       "label": "Mode",
       "file_type": "code",
       "source_file": "src/components/CircuitBreaker.tsx",
       "source_location": "L5",
-      "id": "components_circuitbreaker_mode",
       "community": 3,
-      "norm_label": "mode"
+      "norm_label": "mode",
+      "id": "components_circuitbreaker_mode"
     },
     {
       "label": "GROUNDING_STEPS",
       "file_type": "code",
       "source_file": "src/components/CircuitBreaker.tsx",
       "source_location": "L7",
-      "id": "components_circuitbreaker_grounding_steps",
       "community": 3,
-      "norm_label": "grounding_steps"
+      "norm_label": "grounding_steps",
+      "id": "components_circuitbreaker_grounding_steps"
     },
     {
       "label": "CircuitBreaker()",
       "file_type": "code",
       "source_file": "src/components/CircuitBreaker.tsx",
       "source_location": "L15",
-      "id": "components_circuitbreaker_circuitbreaker",
       "community": 3,
-      "norm_label": "circuitbreaker()"
+      "norm_label": "circuitbreaker()",
+      "id": "components_circuitbreaker_circuitbreaker"
     },
     {
       "label": "GuideMe()",
       "file_type": "code",
       "source_file": "src/components/CircuitBreaker.tsx",
       "source_location": "L93",
-      "id": "components_circuitbreaker_guideme",
       "community": 3,
-      "norm_label": "guideme()"
+      "norm_label": "guideme()",
+      "id": "components_circuitbreaker_guideme"
     },
     {
       "label": "Grounding()",
       "file_type": "code",
       "source_file": "src/components/CircuitBreaker.tsx",
       "source_location": "L219",
-      "id": "components_circuitbreaker_grounding",
       "community": 3,
-      "norm_label": "grounding()"
+      "norm_label": "grounding()",
+      "id": "components_circuitbreaker_grounding"
     },
     {
       "label": "CalmWords()",
       "file_type": "code",
       "source_file": "src/components/CircuitBreaker.tsx",
       "source_location": "L348",
-      "id": "components_circuitbreaker_calmwords",
       "community": 3,
-      "norm_label": "calmwords()"
+      "norm_label": "calmwords()",
+      "id": "components_circuitbreaker_calmwords"
     },
     {
       "label": "CognitiveShuffle.tsx",
       "file_type": "code",
       "source_file": "src/components/CognitiveShuffle.tsx",
       "source_location": "L1",
-      "id": "src_components_cognitiveshuffle_tsx",
       "community": 5,
-      "norm_label": "cognitiveshuffle.tsx"
+      "norm_label": "cognitiveshuffle.tsx",
+      "id": "src_components_cognitiveshuffle_tsx"
     },
     {
       "label": "SPEEDS",
       "file_type": "code",
       "source_file": "src/components/CognitiveShuffle.tsx",
       "source_location": "L4",
-      "id": "components_cognitiveshuffle_speeds",
       "community": 5,
-      "norm_label": "speeds"
+      "norm_label": "speeds",
+      "id": "components_cognitiveshuffle_speeds"
     },
     {
       "label": "CognitiveShuffle()",
       "file_type": "code",
       "source_file": "src/components/CognitiveShuffle.tsx",
       "source_location": "L10",
-      "id": "components_cognitiveshuffle_cognitiveshuffle",
       "community": 5,
-      "norm_label": "cognitiveshuffle()"
+      "norm_label": "cognitiveshuffle()",
+      "id": "components_cognitiveshuffle_cognitiveshuffle"
     },
     {
       "label": "Journal.tsx",
       "file_type": "code",
       "source_file": "src/components/Journal.tsx",
       "source_location": "L1",
-      "id": "src_components_journal_tsx",
       "community": 4,
-      "norm_label": "journal.tsx"
+      "norm_label": "journal.tsx",
+      "id": "src_components_journal_tsx"
     },
     {
       "label": "VaultEntry",
       "file_type": "code",
       "source_file": "src/components/Journal.tsx",
       "source_location": "L4",
-      "id": "components_journal_vaultentry",
       "community": 4,
-      "norm_label": "vaultentry"
+      "norm_label": "vaultentry",
+      "id": "components_journal_vaultentry"
     },
     {
       "label": "STORAGE_KEYS",
       "file_type": "code",
       "source_file": "src/components/Journal.tsx",
       "source_location": "L10",
-      "id": "components_journal_storage_keys",
       "community": 4,
-      "norm_label": "storage_keys"
+      "norm_label": "storage_keys",
+      "id": "components_journal_storage_keys"
     },
     {
       "label": "Journal()",
       "file_type": "code",
       "source_file": "src/components/Journal.tsx",
       "source_location": "L15",
-      "id": "components_journal_journal",
       "community": 4,
-      "norm_label": "journal()"
+      "norm_label": "journal()",
+      "id": "components_journal_journal"
     },
     {
       "label": "SleepCheckin.tsx",
       "file_type": "code",
       "source_file": "src/components/SleepCheckin.tsx",
       "source_location": "L1",
-      "id": "src_components_sleepcheckin_tsx",
       "community": 2,
-      "norm_label": "sleepcheckin.tsx"
+      "norm_label": "sleepcheckin.tsx",
+      "id": "src_components_sleepcheckin_tsx"
     },
     {
       "label": "CheckinEntry",
       "file_type": "code",
       "source_file": "src/components/SleepCheckin.tsx",
       "source_location": "L5",
-      "id": "components_sleepcheckin_checkinentry",
       "community": 2,
-      "norm_label": "checkinentry"
+      "norm_label": "checkinentry",
+      "id": "components_sleepcheckin_checkinentry"
     },
     {
       "label": "BEDTIMES",
       "file_type": "code",
       "source_file": "src/components/SleepCheckin.tsx",
       "source_location": "L12",
-      "id": "components_sleepcheckin_bedtimes",
       "community": 2,
-      "norm_label": "bedtimes"
+      "norm_label": "bedtimes",
+      "id": "components_sleepcheckin_bedtimes"
     },
     {
       "label": "WAKE_FEELS",
       "file_type": "code",
       "source_file": "src/components/SleepCheckin.tsx",
       "source_location": "L19",
-      "id": "components_sleepcheckin_wake_feels",
       "community": 2,
-      "norm_label": "wake_feels"
+      "norm_label": "wake_feels",
+      "id": "components_sleepcheckin_wake_feels"
     },
     {
       "label": "todayStr()",
       "file_type": "code",
       "source_file": "src/components/SleepCheckin.tsx",
       "source_location": "L28",
-      "id": "components_sleepcheckin_todaystr",
       "community": 2,
-      "norm_label": "todaystr()"
+      "norm_label": "todaystr()",
+      "id": "components_sleepcheckin_todaystr"
     },
     {
       "label": "SleepCheckin()",
       "file_type": "code",
       "source_file": "src/components/SleepCheckin.tsx",
       "source_location": "L32",
-      "id": "components_sleepcheckin_sleepcheckin",
       "community": 2,
-      "norm_label": "sleepcheckin()"
+      "norm_label": "sleepcheckin()",
+      "id": "components_sleepcheckin_sleepcheckin"
     },
     {
       "label": "TrendChart.tsx",
       "file_type": "code",
       "source_file": "src/components/TrendChart.tsx",
       "source_location": "L1",
-      "id": "src_components_trendchart_tsx",
       "community": 2,
-      "norm_label": "trendchart.tsx"
+      "norm_label": "trendchart.tsx",
+      "id": "src_components_trendchart_tsx"
     },
     {
       "label": "DataPoint",
       "file_type": "code",
       "source_file": "src/components/TrendChart.tsx",
       "source_location": "L1",
-      "id": "components_trendchart_datapoint",
       "community": 2,
-      "norm_label": "datapoint"
+      "norm_label": "datapoint",
+      "id": "components_trendchart_datapoint"
     },
     {
       "label": "Props",
       "file_type": "code",
       "source_file": "src/components/TrendChart.tsx",
       "source_location": "L6",
-      "id": "components_trendchart_props",
       "community": 2,
-      "norm_label": "props"
+      "norm_label": "props",
+      "id": "components_trendchart_props"
     },
     {
       "label": "TrendChart()",
       "file_type": "code",
       "source_file": "src/components/TrendChart.tsx",
       "source_location": "L10",
-      "id": "components_trendchart_trendchart",
       "community": 2,
-      "norm_label": "trendchart()"
+      "norm_label": "trendchart()",
+      "id": "components_trendchart_trendchart"
     },
     {
       "label": "calmingStatements.ts",
       "file_type": "code",
       "source_file": "src/data/calmingStatements.ts",
       "source_location": "L1",
-      "id": "src_data_calmingstatements_ts",
       "community": 3,
-      "norm_label": "calmingstatements.ts"
+      "norm_label": "calmingstatements.ts",
+      "id": "src_data_calmingstatements_ts"
     },
     {
       "label": "CalmingStatement",
       "file_type": "code",
       "source_file": "src/data/calmingStatements.ts",
       "source_location": "L5",
-      "id": "data_calmingstatements_calmingstatement",
       "community": 3,
-      "norm_label": "calmingstatement"
+      "norm_label": "calmingstatement",
+      "id": "data_calmingstatements_calmingstatement"
     },
     {
       "label": "calmingStatements",
       "file_type": "code",
       "source_file": "src/data/calmingStatements.ts",
       "source_location": "L10",
-      "id": "data_calmingstatements_calmingstatements",
       "community": 3,
-      "norm_label": "calmingstatements"
+      "norm_label": "calmingstatements",
+      "id": "data_calmingstatements_calmingstatements"
     },
     {
       "label": "wordBank.ts",
       "file_type": "code",
       "source_file": "src/data/wordBank.ts",
       "source_location": "L1",
-      "id": "src_data_wordbank_ts",
       "community": 5,
-      "norm_label": "wordbank.ts"
+      "norm_label": "wordbank.ts",
+      "id": "src_data_wordbank_ts"
     },
     {
       "label": "wordBank",
       "file_type": "code",
       "source_file": "src/data/wordBank.ts",
       "source_location": "L5",
-      "id": "data_wordbank_wordbank",
       "community": 5,
-      "norm_label": "wordbank"
+      "norm_label": "wordbank",
+      "id": "data_wordbank_wordbank"
     },
     {
       "label": "shuffleArray()",
       "file_type": "code",
       "source_file": "src/data/wordBank.ts",
       "source_location": "L46",
-      "id": "data_wordbank_shufflearray",
       "community": 5,
-      "norm_label": "shufflearray()"
+      "norm_label": "shufflearray()",
+      "id": "data_wordbank_shufflearray"
     },
     {
       "label": "audio.ts",
       "file_type": "code",
       "source_file": "src/lib/audio.ts",
       "source_location": "L1",
-      "id": "src_lib_audio_ts",
       "community": 0,
-      "norm_label": "audio.ts"
+      "norm_label": "audio.ts",
+      "id": "src_lib_audio_ts"
     },
     {
       "label": "getContext()",
       "file_type": "code",
       "source_file": "src/lib/audio.ts",
       "source_location": "L8",
-      "id": "lib_audio_getcontext",
       "community": 0,
-      "norm_label": "getcontext()"
+      "norm_label": "getcontext()",
+      "id": "lib_audio_getcontext"
     },
     {
       "label": "playChime()",
       "file_type": "code",
       "source_file": "src/lib/audio.ts",
       "source_location": "L21",
-      "id": "lib_audio_playchime",
       "community": 0,
-      "norm_label": "playchime()"
+      "norm_label": "playchime()",
+      "id": "lib_audio_playchime"
     },
     {
       "label": "playBreathingCue()",
       "file_type": "code",
       "source_file": "src/lib/audio.ts",
       "source_location": "L53",
-      "id": "lib_audio_playbreathingcue",
       "community": 0,
-      "norm_label": "playbreathingcue()"
+      "norm_label": "playbreathingcue()",
+      "id": "lib_audio_playbreathingcue"
     },
     {
       "label": "vibrate()",
       "file_type": "code",
       "source_file": "src/lib/audio.ts",
       "source_location": "L66",
-      "id": "lib_audio_vibrate",
       "community": 0,
-      "norm_label": "vibrate()"
+      "norm_label": "vibrate()",
+      "id": "lib_audio_vibrate"
     },
     {
       "label": "storage.ts",
       "file_type": "code",
       "source_file": "src/lib/storage.ts",
       "source_location": "L1",
-      "id": "src_lib_storage_ts",
       "community": 4,
-      "norm_label": "storage.ts"
+      "norm_label": "storage.ts",
+      "id": "src_lib_storage_ts"
     },
     {
       "label": "getItem()",
       "file_type": "code",
       "source_file": "src/lib/storage.ts",
       "source_location": "L8",
-      "id": "lib_storage_getitem",
       "community": 4,
-      "norm_label": "getitem()"
+      "norm_label": "getitem()",
+      "id": "lib_storage_getitem"
     },
     {
       "label": "setItem()",
       "file_type": "code",
       "source_file": "src/lib/storage.ts",
       "source_location": "L18",
-      "id": "lib_storage_setitem",
       "community": 4,
-      "norm_label": "setitem()"
+      "norm_label": "setitem()",
+      "id": "lib_storage_setitem"
     },
     {
       "label": "removeItem()",
       "file_type": "code",
       "source_file": "src/lib/storage.ts",
       "source_location": "L26",
-      "id": "lib_storage_removeitem",
       "community": 4,
-      "norm_label": "removeitem()"
+      "norm_label": "removeitem()",
+      "id": "lib_storage_removeitem"
     },
     {
       "label": "isStorageAvailable()",
       "file_type": "code",
       "source_file": "src/lib/storage.ts",
       "source_location": "L34",
-      "id": "lib_storage_isstorageavailable",
       "community": 4,
-      "norm_label": "isstorageavailable()"
+      "norm_label": "isstorageavailable()",
+      "id": "lib_storage_isstorageavailable"
     },
     {
       "label": "project_idea.md",
       "file_type": "document",
       "source_file": "project_idea.md",
       "source_location": "L1",
-      "id": "project_idea_md",
       "community": 7,
-      "norm_label": "project_idea.md"
+      "norm_label": "project_idea.md",
+      "id": "project_idea_md"
     },
     {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
-      "id": "readme_md",
       "community": 1,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "readme_md"
     },
     {
       "label": "\ud83c\udf19 Fall Asleep \u2014 Shutdown Protocol",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
-      "id": "fallasleep_readme_fall_asleep_shutdown_protocol",
       "community": 1,
-      "norm_label": "\ud83c\udf19 fall asleep \u2014 shutdown protocol"
+      "norm_label": "\ud83c\udf19 fall asleep \u2014 shutdown protocol",
+      "id": "fallasleep_readme_fall_asleep_shutdown_protocol"
     },
     {
       "label": "Features",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L7",
-      "id": "fallasleep_readme_features",
       "community": 1,
-      "norm_label": "features"
+      "norm_label": "features",
+      "id": "fallasleep_readme_features"
     },
     {
       "label": "Privacy",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L17",
-      "id": "fallasleep_readme_privacy",
       "community": 1,
-      "norm_label": "privacy"
+      "norm_label": "privacy",
+      "id": "fallasleep_readme_privacy"
     },
     {
       "label": "Tech Stack",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L21",
-      "id": "fallasleep_readme_tech_stack",
       "community": 1,
-      "norm_label": "tech stack"
+      "norm_label": "tech stack",
+      "id": "fallasleep_readme_tech_stack"
     },
     {
       "label": "Development",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L29",
-      "id": "fallasleep_readme_development",
       "community": 1,
-      "norm_label": "development"
+      "norm_label": "development",
+      "id": "fallasleep_readme_development"
     },
     {
       "label": "code:bash (# Install dependencies)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L31",
-      "id": "fallasleep_readme_codeblock_1",
       "community": 1,
-      "norm_label": "code:bash (# install dependencies)"
+      "norm_label": "code:bash (# install dependencies)",
+      "id": "fallasleep_readme_codeblock_1"
     },
     {
       "label": "Deployment",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L45",
-      "id": "fallasleep_readme_deployment",
       "community": 1,
-      "norm_label": "deployment"
+      "norm_label": "deployment",
+      "id": "fallasleep_readme_deployment"
     },
     {
       "label": "code:bash (npm run build)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L49",
-      "id": "fallasleep_readme_codeblock_2",
       "community": 1,
-      "norm_label": "code:bash (npm run build)"
+      "norm_label": "code:bash (npm run build)",
+      "id": "fallasleep_readme_codeblock_2"
     },
     {
       "label": "Design Principles",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L54",
-      "id": "fallasleep_readme_design_principles",
       "community": 1,
-      "norm_label": "design principles"
+      "norm_label": "design principles",
+      "id": "fallasleep_readme_design_principles"
     },
     {
       "label": "License",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L62",
-      "id": "fallasleep_readme_license",
       "community": 1,
-      "norm_label": "license"
+      "norm_label": "license",
+      "id": "fallasleep_readme_license"
     }
   ],
   "links": [
@@ -1237,5 +1237,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "68c925f2bada13a1417d8fa800bbd4c2e75123b7"
+  "built_at_commit": "73309adf3aa165ad8868703b892a074977c064e4"
 }
