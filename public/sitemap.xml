@@ -3,56 +3,56 @@
 
   <!-- Core Pages -->
   <url>
-    <loc>https://fallasleep.pages.dev/</loc>
+    <loc>https://fallasleeep.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://fallasleep.pages.dev/about</loc>
+    <loc>https://fallasleeep.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fallasleep.pages.dev/contact</loc>
+    <loc>https://fallasleeep.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Sleep Tools -->
   <url>
-    <loc>https://fallasleep.pages.dev/breathe</loc>
+    <loc>https://fallasleeep.com/breathe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://fallasleep.pages.dev/calm</loc>
+    <loc>https://fallasleeep.com/calm</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://fallasleep.pages.dev/checkin</loc>
+    <loc>https://fallasleeep.com/checkin</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fallasleep.pages.dev/journal</loc>
+    <loc>https://fallasleeep.com/journal</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fallasleep.pages.dev/shuffle</loc>
+    <loc>https://fallasleeep.com/shuffle</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Legal -->
   <url>
-    <loc>https://fallasleep.pages.dev/privacy-policy</loc>
+    <loc>https://fallasleeep.com/privacy-policy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://fallasleep.pages.dev/terms</loc>
+    <loc>https://fallasleeep.com/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
