@@ -1,4 +1,4 @@
 ﻿User-agent: *
 Allow: /
 
-Sitemap: https://fallasleeep.pages.dev/sitemap.xml
+Sitemap: https://fallasleep.pages.dev/sitemap.xml
