@@ -27,9 +27,8 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Graphify temp files
-graphify-out/memory/
-graphify-out/*.html
+# Graphify (auto-generated knowledge graph output)
+graphify-out/
 
 # wrangler files
 .wrangler
