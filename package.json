@@ -23,7 +23,6 @@
     "@tailwindcss/vite": "^4.1.11",
     "@types/node": "^26.1.1",
     "tailwindcss": "^4.1.11",
-    "typescript": "^7.0.2",
-    "wrangler": "^4.110.0"
+    "typescript": "^7.0.2"
   }
 }
