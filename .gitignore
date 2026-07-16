@@ -4,6 +4,9 @@ dist/
 # Generated types
 .astro/
 
+# Lock file (cross-platform native bindings cause npm ci to fail on Cloudflare Linux builders)
+package-lock.json
+
 # Dependencies
 node_modules/
 
