@@ -1,0 +1,49 @@
+---
+import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
+import BackButton from '../components/BackButton.astro';
+import MindfulnessMeditation from '../components/MindfulnessMeditation.tsx';
+---
+
+<BaseLayout 
+  title="Mindfulness & Body Scan Meditation for Anxiety Relief" 
+  description="Release tension and calm overwhelmed thoughts with guided body scan meditation, mindful anxiety de-escalation, and serene focus timers."
+  canonicalURL="https://fallasleeep.com/meditate"
+>
+  <div class="page">
+    <div class="page__header">
+      <BackButton />
+      <h1 class="page__title">Mindfulness & Meditation</h1>
+      <p class="page__desc">Release physical tension, settle racing thoughts</p>
+    </div>
+    <MindfulnessMeditation client:load />
+  </div>
+  <Navigation slot="nav" />
+</BaseLayout>
+
+<style>
+  .page {
+    max-width: 32rem;
+    margin: 0 auto;
+    padding: 1rem 0.5rem 6rem;
+  }
+
+  .page__header {
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .page__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.75rem 0 0.25rem;
+    color: var(--color-drift-text);
+  }
+
+  .page__desc {
+    font-size: 0.875rem;
+    color: var(--color-drift-text-muted);
+    margin: 0;
+  }
+</style>

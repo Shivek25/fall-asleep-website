@@ -11,8 +11,10 @@
 | 🧠 **Cognitive Shuffle** | Visualize random words to quiet racing thoughts |
 | 📝 **Brain Dump** | Write anxious thoughts, lock them in the vault |
 | 🌊 **Guided Breathing** | 4-7-8, box breathing, or 4-4-6 calming patterns |
+| 🧘 **Mindfulness & Body Scan** | Step-by-step physical tension release & anxiety pause |
 | 🛡️ **Circuit Breaker** | 5-4-3-2-1 grounding, calming words, guided decision tree |
 | 📊 **Sleep Check-in** | Track bedtime, quality, and wake feeling with trends |
+| 🎧 **Ambient Bedtime Soundscapes** | 100% procedural 432Hz drones, night rain, celestial pads |
 
 ## Privacy
 
@@ -23,7 +25,7 @@
 - **[Astro](https://astro.build)** — Static site generation with minimal JavaScript
 - **[Preact](https://preactjs.com)** — Lightweight interactive islands (3KB)
 - **[Tailwind CSS v4](https://tailwindcss.com)** — Utility-first styling with CSS-first config
-- **Web Audio API** — Synthesized breathing cues (no audio files)
+- **Web Audio API** — Synthesized breathing cues & procedural ambient background audio (0 KB assets)
 - **localStorage** — All user data, completely private
 
 ## Development
