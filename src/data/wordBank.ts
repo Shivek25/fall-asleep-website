@@ -41,7 +41,7 @@ export const wordBank: string[] = [
 ];
 
 /**
- * Fisher-Yates shuffle — returns a new shuffled array.
+ * Fisher-Yates shuffle: returns a new shuffled array.
  */
 export function shuffleArray<T>(arr: T[]): T[] {
   const shuffled = [...arr];

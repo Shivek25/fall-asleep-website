@@ -104,18 +104,18 @@ function GuideMe() {
     },
     {
       message: 'Your mind is busy. Let\'s redirect it.',
-      suggestion: 'Try the Cognitive Shuffle — it gently occupies your mind with random images until sleep arrives.',
+      suggestion: 'Try the Cognitive Shuffle - it gently occupies your mind with random images until sleep arrives.',
       link: '/shuffle/',
       linkLabel: 'Go to Shuffle',
     },
     {
       message: 'Your body is holding stress. Let\'s release it.',
-      suggestion: 'Try Guided Breathing — the 4-7-8 pattern activates your rest-and-digest system.',
+      suggestion: 'Try Guided Breathing - the 4-7-8 pattern activates your rest-and-digest system.',
       link: '/breathe/',
       linkLabel: 'Go to Breathing',
     },
     {
-      message: 'You\'re feeling anxious. That\'s okay — let\'s ground you.',
+      message: 'You\'re feeling anxious. That\'s okay - let\'s ground you.',
       suggestion: 'Try the 5-4-3-2-1 grounding exercise. It brings you back to the present moment.',
       action: 'grounding',
     },

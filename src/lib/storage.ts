@@ -1,6 +1,6 @@
 /**
  * localStorage wrapper with typed get/set and JSON serialization.
- * All Fall Asleep data stays on the device — nothing leaves the browser.
+ * All Fall Asleep data stays on the device: nothing leaves the browser.
  */
 
 const PREFIX = 'drift-';
@@ -19,7 +19,7 @@ export function setItem<T>(key: string, value: T): void {
   try {
     localStorage.setItem(PREFIX + key, JSON.stringify(value));
   } catch {
-    // Storage full or unavailable — fail silently in bedtime context
+    // Storage full or unavailable: fail silently in bedtime context
   }
 }
 

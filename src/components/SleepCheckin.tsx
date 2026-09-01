@@ -11,8 +11,8 @@ interface CheckinEntry {
 
 const BEDTIMES = [
   { label: 'Before 10pm', value: 'before-10' },
-  { label: '10–11pm', value: '10-11' },
-  { label: '11pm–12am', value: '11-12' },
+  { label: '10-11pm', value: '10-11' },
+  { label: '11pm-12am', value: '11-12' },
   { label: 'After midnight', value: 'after-midnight' },
 ];
 

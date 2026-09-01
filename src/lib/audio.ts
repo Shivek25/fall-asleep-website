@@ -1,6 +1,6 @@
 /**
  * Web Audio API utility for generating soft tones.
- * No external audio files needed — everything is synthesized in-browser.
+ * No external audio files needed: everything is synthesized in-browser.
  */
 
 let audioCtx: AudioContext | null = null;
@@ -14,9 +14,9 @@ function getContext(): AudioContext {
 
 /**
  * Play a soft sine-wave chime.
- * @param frequency - Hz (default 396 — soothing low tone)
+ * @param frequency - Hz (default 396: soothing low tone)
  * @param duration - seconds (default 0.6)
- * @param volume - 0-1 (default 0.15 — very quiet for bedtime)
+ * @param volume - 0-1 (default 0.15: very quiet for bedtime)
  */
 export function playChime(
   frequency: number = 396,
@@ -42,7 +42,7 @@ export function playChime(
     oscillator.start(ctx.currentTime);
     oscillator.stop(ctx.currentTime + duration);
   } catch {
-    // Audio not available — fail silently
+    // Audio not available: fail silently
   }
 }
 
@@ -69,6 +69,6 @@ export function vibrate(pattern: number | number[] = 50): void {
       navigator.vibrate(pattern);
     }
   } catch {
-    // Not supported — fail silently
+    // Not supported: fail silently
   }
 }

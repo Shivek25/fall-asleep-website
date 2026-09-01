@@ -42,7 +42,7 @@ const BODY_ZONES: BodyZone[] = [
     subtitle: 'Step 4 of 7',
     icon: '🫁',
     focusArea: 'Heart Center & Ribcage',
-    guidance: 'Watch the effortless rise and fall of your chest. You do not need to force deep breaths—simply witness your heart rate gently steadying.',
+    guidance: 'Watch the effortless rise and fall of your chest. You do not need to force deep breaths: simply witness your heart rate gently steadying.',
     cue: 'Feel your chest soften with each natural exhale.',
   },
   {
@@ -219,8 +219,8 @@ export default function MindfulnessMeditation() {
 function BodyScanView() {
   const [currentIdx, setCurrentIdx] = useState(0);
   const [autoPlay, setAutoPlay] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(35);
   const [soundEnabled, setSoundEnabled] = useState(true);
-  const timerRef = useRef<number | null>(null);
 
   const zone = BODY_ZONES[currentIdx];
   const isComplete = currentIdx >= BODY_ZONES.length;
@@ -228,6 +228,7 @@ function BodyScanView() {
   const nextStep = () => {
     if (currentIdx < BODY_ZONES.length - 1) {
       setCurrentIdx((prev) => prev + 1);
+      setTimeLeft(35);
       if (soundEnabled) {
         playChime(396, 0.5, 0.12);
       }
@@ -243,25 +244,34 @@ function BodyScanView() {
   const prevStep = () => {
     if (currentIdx > 0) {
       setCurrentIdx((prev) => prev - 1);
+      setTimeLeft(35);
     }
   };
 
   const restart = () => {
     setCurrentIdx(0);
+    setTimeLeft(35);
     setAutoPlay(false);
   };
 
-  // Auto-advance timer (35 seconds per zone)
+  // Auto-advance 1-second countdown timer (35 seconds per zone)
   useEffect(() => {
+    let interval: number | null = null;
     if (autoPlay && currentIdx < BODY_ZONES.length) {
-      timerRef.current = window.setTimeout(() => {
-        nextStep();
-      }, 35000);
+      interval = window.setInterval(() => {
+        setTimeLeft((prev) => {
+          if (prev <= 1) {
+            nextStep();
+            return 35;
+          }
+          return prev - 1;
+        });
+      }, 1000);
     }
     return () => {
-      if (timerRef.current) clearTimeout(timerRef.current);
+      if (interval) clearInterval(interval);
     };
-  }, [autoPlay, currentIdx]);
+  }, [autoPlay, currentIdx, soundEnabled]);
 
   return (
     <div class="bodyscan-card drift-card">
@@ -290,11 +300,18 @@ function BodyScanView() {
               <button
                 type="button"
                 class={`bodyscan__toggle-btn ${autoPlay ? 'bodyscan__toggle-btn--on' : ''}`}
-                onClick={() => setAutoPlay(!autoPlay)}
+                onClick={() => {
+                  if (!autoPlay) {
+                    setTimeLeft(35);
+                    setAutoPlay(true);
+                  } else {
+                    setAutoPlay(false);
+                  }
+                }}
                 title={autoPlay ? 'Pause auto pacing' : 'Auto pace (35s per zone)'}
                 aria-label="Toggle auto pace"
               >
-                {autoPlay ? '⏸️ Auto (35s)' : '▶️ Auto-Pace'}
+                {autoPlay ? `⏸️ Pause (${timeLeft}s)` : '▶️ Auto-Pace'}
               </button>
             </div>
           </div>
