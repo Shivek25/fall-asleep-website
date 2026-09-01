@@ -1,4 +1,4 @@
-# 🌙 Fall Asleep — Shutdown Protocol
+# 🌙 Fall Asleep: Shutdown Protocol
 
 > Your nightly companion for real rest.
 
@@ -14,7 +14,7 @@
 | 🧘 **Mindfulness & Body Scan** | Step-by-step physical tension release & anxiety pause |
 | 🛡️ **Circuit Breaker** | 5-4-3-2-1 grounding, calming words, guided decision tree |
 | 📊 **Sleep Check-in** | Track bedtime, quality, and wake feeling with trends |
-| 🎧 **Ambient Bedtime Soundscapes** | 100% procedural 432Hz drones, night rain, celestial pads |
+| 🎧 **Ambient Bedtime Soundscapes** | Curated copyright-free sleep music & soothing ambient sounds |
 
 ## Privacy
 
@@ -22,11 +22,11 @@
 
 ## Tech Stack
 
-- **[Astro](https://astro.build)** — Static site generation with minimal JavaScript
-- **[Preact](https://preactjs.com)** — Lightweight interactive islands (3KB)
-- **[Tailwind CSS v4](https://tailwindcss.com)** — Utility-first styling with CSS-first config
-- **Web Audio API** — Synthesized breathing cues & procedural ambient background audio (0 KB assets)
-- **localStorage** — All user data, completely private
+- **[Astro](https://astro.build)**: Static site generation with minimal JavaScript
+- **[Preact](https://preactjs.com)**: Lightweight interactive islands (3KB)
+- **[Tailwind CSS v4](https://tailwindcss.com)**: Utility-first styling with CSS-first config
+- **Web Audio API & HTML5 Audio**: Synthesized cues & background bedtime music
+- **localStorage**: All user data, completely private
 
 ## Development
 
@@ -55,11 +55,11 @@ npm run build
 
 ## Design Principles
 
-- **Dark-first** — Preserves night vision
-- **One-handed** — Usable in bed with thumb reach
-- **Minimal** — No cognitive overload
-- **Accessible** — WCAG 2.2 AA, keyboard navigation, screen reader support
-- **Fast** — Lighthouse ≥ 95 target
+- **Dark-first**: Preserves night vision
+- **One-handed**: Usable in bed with thumb reach
+- **Minimal**: No cognitive overload
+- **Accessible**: WCAG 2.2 AA, keyboard navigation, screen reader support
+- **Fast**: Lighthouse ≥ 95 target
 
 ## License
 

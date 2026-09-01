@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ============================================
-   DRIFT — Design System
+   DRIFT - Design System
    Dark-first, calm, premium, minimal
    ============================================ */
 
@@ -17,7 +17,7 @@
   --color-drift-text-muted: #cbd5e1;
   --color-drift-text-dim: #94a3b8;
 
-  /* Accent — muted blue */
+  /* Accent: muted blue */
   --color-drift-accent: #6e8bef;
   --color-drift-accent-glow: #4a6cd4;
   --color-drift-accent-soft: #6e8bef26;
@@ -80,7 +80,7 @@ body {
   color: var(--color-drift-text);
 }
 
-/* Skip to content — accessibility */
+/* Skip to content - accessibility */
 .skip-link {
   position: absolute;
   top: -100%;

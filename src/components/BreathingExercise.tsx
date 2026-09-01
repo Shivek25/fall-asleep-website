@@ -135,7 +135,7 @@ export default function BreathingExercise() {
             boxShadow: `0 0 ${running ? 40 : 20}px ${PHASE_COLORS[phase]}30`,
           }}
           role="img"
-          aria-label={`Breathing orb — ${PHASE_LABELS[phase]}`}
+          aria-label={`Breathing orb: ${PHASE_LABELS[phase]}`}
         >
           <div class="breathe__orb-inner" style={{
             background: `radial-gradient(circle, ${PHASE_COLORS[phase]}60 0%, transparent 70%)`,

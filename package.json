@@ -2,7 +2,7 @@
   "name": "drift-shutdown-protocol",
   "type": "module",
   "version": "0.1.0",
-  "description": "Your nightly companion for real rest — fall asleep faster, stay asleep, wake rested.",
+  "description": "Your nightly companion for real rest - fall asleep faster, stay asleep, wake rested.",
   "engines": {
     "node": ">=22.12.0"
   },
