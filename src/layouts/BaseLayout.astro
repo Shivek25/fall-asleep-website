@@ -13,7 +13,7 @@ const {
   title, 
   description = 'Having trouble sleeping? Discover proven ways to fall asleep faster. Fall asleep fast using cognitive shuffling, guided breathing, and grounding exercises.',
   image = '/favicon.svg',
-  canonicalURL = 'https://fallasleep.app/' // Assuming a default canonical URL base
+  canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://fallasleeep.com').href
 } = Astro.props;
 ---
 
@@ -58,6 +58,14 @@ const {
       gtag('js', new Date());
       gtag('config', 'G-V9GSTD21FS');
     </script>
+
+    <!-- Google AdSense -->
+    <script
+      is:inline
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4132727804311589"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <Starfield transition:persist />
