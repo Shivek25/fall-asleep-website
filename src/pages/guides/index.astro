@@ -1,0 +1,123 @@
+---
+import '../../styles/global.css';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navigation from '../../components/Navigation.astro';
+
+const guides = [
+  {
+    title: 'How to Fall Asleep Fast: Evidence-Based Science and Protocols',
+    desc: 'Explore the biological and neurological mechanics of sleep onset latency. Learn practical protocols to calm sympathetic arousal and trigger rapid rest.',
+    url: '/guides/how-to-fall-asleep-fast/',
+    tag: 'Sleep Physiology',
+    icon: '🌙',
+    time: '8 min read'
+  },
+  {
+    title: 'Cognitive Shuffling: Scramble Your Thoughts to Trigger Sleep',
+    desc: 'Discover Serial Diverse Imagining (SDI), the technique developed by Dr. Luc Beaudoin to disarm cognitive hyperarousal and mimic natural dream transitions.',
+    url: '/guides/cognitive-shuffling-technique/',
+    tag: 'Cognitive Science',
+    icon: '🧠',
+    time: '8 min read'
+  },
+  {
+    title: 'The 4-7-8 Breathing Method for Deep Sleep: A Practical Guide',
+    desc: 'Understand the cardiopulmonary science of vagal stimulation. Master Dr. Andrew Weil\'s tranquilizing breathing rhythm to slow nocturnal tachycardia.',
+    url: '/guides/4-7-8-breathing-method/',
+    tag: 'Vagal Breathwork',
+    icon: '💨',
+    time: '7 min read'
+  },
+  {
+    title: 'The Military Sleep Method: Fall Asleep Fast Under Pressure',
+    desc: 'The complete guide to the U.S. Navy Pre-Flight School routine designed by Bud Winter. Systematically decondition tension from your facial muscles and limbs.',
+    url: '/guides/military-sleep-method/',
+    tag: 'Military Protocol',
+    icon: '🎖️',
+    time: '8 min read'
+  },
+  {
+    title: 'How to Stop Racing Thoughts at Night: Cognitive Science Strategies',
+    desc: 'Silence bedtime rumination, catastrophic anticipation, and cognitive loops with bedtime brain dumps, cognitive reframing, and stimulus control.',
+    url: '/guides/how-to-stop-racing-thoughts-at-night/',
+    tag: 'Worry & Rumination',
+    icon: '📝',
+    time: '8 min read'
+  },
+  {
+    title: 'Sleep Architecture: Understanding REM, Deep Sleep, and 90-Minute Cycles',
+    desc: 'Explore the four stages of human sleep, ultradian 90-minute sleep cycles, slow-wave delta regeneration, and how to wake up without morning grogginess.',
+    url: '/guides/sleep-architecture-and-cycles/',
+    tag: 'Sleep Architecture',
+    icon: '🔄',
+    time: '9 min read'
+  },
+  {
+    title: 'Progressive Muscle Relaxation (PMR): Release Physical Night Tension',
+    desc: 'Master Dr. Edmund Jacobson\'s somatic protocol. Systematically contract and release muscle groups to banish residual motor tension before sleep.',
+    url: '/guides/progressive-muscle-relaxation/',
+    tag: 'Somatic Relaxation',
+    icon: '🧘',
+    time: '8 min read'
+  },
+  {
+    title: 'The Complete Sleep Hygiene Checklist: Science-Backed Habits',
+    desc: 'Optimize your master circadian pacemaker through calibrated light exposure, ambient thermoregulation, caffeine timing, and nightly boundaries.',
+    url: '/guides/sleep-hygiene-checklist/',
+    tag: 'Circadian Biology',
+    icon: '📋',
+    time: '9 min read'
+  },
+  {
+    title: 'Waking Up at 3 AM with Panic: Why It Happens and What to Do',
+    desc: 'Analyze the neurochemical mechanics of mid-night waking: nocturnal hypoglycemia, REM rebound, cortisol surges, and 5-4-3-2-1 de-escalation.',
+    url: '/guides/nocturnal-panic-and-3am-waking/',
+    tag: 'Nocturnal Awakening',
+    icon: '⚡',
+    time: '8 min read'
+  },
+  {
+    title: 'How to Sleep When Stressed: Overcoming Fight-or-Flight at Bedtime',
+    desc: 'Calm the hypothalamic-pituitary-adrenal axis with the physiological sigh, paradoxical intention, and autonomic down-regulation protocols.',
+    url: '/guides/how-to-sleep-when-stressed/',
+    tag: 'Stress Management',
+    icon: '🛡️',
+    time: '8 min read'
+  }
+];
+---
+
+<BaseLayout 
+  title="Sleep Science Guides & Tutorials - Fall Asleep" 
+  description="Comprehensive evidence-based sleep guides covering cognitive shuffling, 4-7-8 breathing, military sleep method, somatic relaxation, and night anxiety reduction."
+>
+  <div class="guides-hub">
+    <header class="guides-hub__header">
+      <a href="/" class="back-link">← Back to Home</a>
+      <h1 class="guides-hub__title">Sleep Science & Educational Guides</h1>
+      <p class="guides-hub__desc">
+        Explore in-depth, research-backed tutorials on sleep physiology, cognitive techniques, autonomic breathwork, and somatic stress release to improve your nightly rest.
+      </p>
+    </header>
+
+    <div class="guides-grid">
+      {guides.map((guide) => (
+        <a href={guide.url} class="guide-hub-card">
+          <div class="guide-hub-card__top">
+            <span class="guide-hub-card__icon">{guide.icon}</span>
+            <span class="guide-hub-card__time">{guide.time}</span>
+          </div>
+          <span class="guide-tag" style="margin-bottom: 0.75rem; align-self: flex-start;">{guide.tag}</span>
+          <h2 class="guide-hub-card__title">{guide.title}</h2>
+          <p class="guide-hub-card__desc">{guide.desc}</p>
+          <div class="guide-hub-card__footer">
+            <span>Read full guide</span>
+            <span>→</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <Navigation slot="nav" />
+</BaseLayout>

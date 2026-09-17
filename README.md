@@ -15,6 +15,7 @@
 | 🛡️ **Circuit Breaker** | 5-4-3-2-1 grounding, calming words, guided decision tree |
 | 📊 **Sleep Check-in** | Track bedtime, quality, and wake feeling with trends |
 | 🎧 **Ambient Bedtime Soundscapes** | Curated copyright-free sleep music & soothing ambient sounds |
+| 📚 **Sleep Science Guides** | 10 evidence-based articles on sleep architecture, circadian rhythm, cognitive shuffling, and vagal breathwork |
 
 ## Privacy
 
