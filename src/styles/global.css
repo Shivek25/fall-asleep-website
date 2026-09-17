@@ -379,6 +379,228 @@ body {
 }
 
 /* ============================================
+   Standalone Guide & Hub Styles
+   ============================================ */
+
+.guide-hero {
+  padding: 3rem 1.25rem 2rem;
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.guide-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.4rem 0.85rem;
+  margin-bottom: 1.25rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--color-drift-text-muted);
+  text-decoration: none;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.guide-back-btn:hover {
+  color: var(--color-drift-text);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.16);
+  transform: translateX(-2px);
+}
+
+.guide-back-btn svg {
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.guide-back-btn:hover svg {
+  transform: translateX(-2px);
+}
+
+.guide-hero__meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  margin-bottom: 1rem;
+  font-size: 0.8125rem;
+  color: var(--color-drift-text-dim);
+}
+
+.guide-tag {
+  background: rgba(110, 139, 239, 0.15);
+  color: var(--color-drift-accent-glow);
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.guide-hero__title {
+  font-size: clamp(1.85rem, 4vw, 2.5rem);
+  font-weight: 700;
+  color: var(--color-drift-text);
+  line-height: 1.25;
+  margin: 0 0 1rem;
+  letter-spacing: -0.02em;
+}
+
+.guide-hero__desc {
+  font-size: 1.125rem;
+  color: var(--color-drift-text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.guide-author-box {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-drift-md);
+  padding: 1.5rem;
+  margin: 2.5rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.guide-author-box__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.guide-author-box__avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-drift-surface-raised);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  flex-shrink: 0;
+}
+
+.guide-author-box__name {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-drift-text);
+  margin: 0;
+}
+
+.guide-author-box__title {
+  font-size: 0.75rem;
+  color: var(--color-drift-text-dim);
+  margin: 0.125rem 0 0;
+}
+
+.guide-author-box__bio {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-drift-text-muted);
+  margin: 0;
+}
+
+.guides-hub {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 6rem;
+}
+
+.guides-hub__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.guides-hub__title {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 700;
+  color: var(--color-drift-text);
+  margin: 0 0 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.guides-hub__desc {
+  font-size: 1.125rem;
+  color: var(--color-drift-text-muted);
+  max-width: 36rem;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.guides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.guide-hub-card {
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-drift-md);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.guide-hub-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(110, 139, 239, 0.4);
+  background: rgba(30, 41, 59, 0.5);
+}
+
+.guide-hub-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.875rem;
+}
+
+.guide-hub-card__icon {
+  font-size: 1.5rem;
+}
+
+.guide-hub-card__time {
+  font-size: 0.75rem;
+  color: var(--color-drift-text-dim);
+}
+
+.guide-hub-card__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-drift-text);
+  margin: 0 0 0.5rem;
+  line-height: 1.35;
+}
+
+.guide-hub-card__desc {
+  font-size: 0.875rem;
+  color: var(--color-drift-text-muted);
+  line-height: 1.55;
+  margin: 0 0 1.25rem;
+  flex: 1;
+}
+
+.guide-hub-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8125rem;
+  color: var(--color-drift-accent-glow);
+  font-weight: 500;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+/* ============================================
    Global Footer Baseline & Navigation Clearance
    ============================================ */
 
