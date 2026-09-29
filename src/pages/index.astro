@@ -61,6 +61,8 @@ const features = [
       <p class="home__subtitle">Your nightly companion for real rest</p>
       
       <nav class="home__hero-links">
+        <a href="/guides/">Guides Library</a>
+        <span class="separator">•</span>
         <a href="/about/">About Us</a>
         <span class="separator">•</span>
         <a href="/privacy-policy/">Privacy</a>
@@ -88,6 +90,58 @@ const features = [
       ))}
     </nav>
 
+    <section class="home__guides-section" aria-label="Sleep science guides">
+      <div class="home__section-header">
+        <h2 class="home__section-title">Sleep Science & Educational Guides</h2>
+        <p class="home__section-desc">In-depth research on sleep physiology, cognitive techniques, autonomic breathwork, and circadian rhythms.</p>
+      </div>
+
+      <div class="home__guides-grid">
+        <a href="/guides/how-to-fall-asleep-fast/" class="home__guide-card">
+          <div class="home__guide-meta">
+            <span class="guide-tag">Sleep Physiology</span>
+            <span class="home__guide-time">8 min read</span>
+          </div>
+          <h3 class="home__guide-title">How to Fall Asleep Fast: Evidence-Based Protocols</h3>
+          <p class="home__guide-desc">The biological mechanisms governing sleep onset latency and practical autonomic down-regulation protocols.</p>
+        </a>
+
+        <a href="/guides/cognitive-shuffling-technique/" class="home__guide-card">
+          <div class="home__guide-meta">
+            <span class="guide-tag">Cognitive Science</span>
+            <span class="home__guide-time">8 min read</span>
+          </div>
+          <h3 class="home__guide-title">Cognitive Shuffling: Scramble Your Thoughts for Sleep</h3>
+          <p class="home__guide-desc">How Serial Diverse Imagining (SDI) disarms prefrontal hyperarousal and mimics natural hypnagogic dreamlets.</p>
+        </a>
+
+        <a href="/guides/sleep-architecture-and-cycles/" class="home__guide-card">
+          <div class="home__guide-meta">
+            <span class="guide-tag">Sleep Architecture</span>
+            <span class="home__guide-time">9 min read</span>
+          </div>
+          <h3 class="home__guide-title">Understanding REM, Deep Sleep, and 90-Minute Cycles</h3>
+          <p class="home__guide-desc">Slow-wave delta regeneration, cellular recovery, and how to avoid debilitating morning sleep inertia.</p>
+        </a>
+
+        <a href="/guides/military-sleep-method/" class="home__guide-card">
+          <div class="home__guide-meta">
+            <span class="guide-tag">Military Protocol</span>
+            <span class="home__guide-time">8 min read</span>
+          </div>
+          <h3 class="home__guide-title">The Military Sleep Method: Fall Asleep Under Pressure</h3>
+          <p class="home__guide-desc">The U.S. Navy Pre-Flight School routine to systematically deactivate facial muscles and mental tension in 2 minutes.</p>
+        </a>
+      </div>
+
+      <div class="home__guides-cta">
+        <a href="/guides/" class="home__guides-btn">
+          <span>Explore All 10 Sleep Guides</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+    </section>
+
     <!-- Footer is now globally provided by BaseLayout -->
   </div>
 
@@ -112,44 +166,32 @@ const features = [
       <h3 class="faq-title">Frequently Asked Questions</h3>
       <div class="faq-list">
         <details class="faq-item">
-          <summary>Is it correct to say I fall asleep?</summary>
-          <p>Yes, "fall asleep" is the correct and most commonly used English phrase to describe the natural process of transitioning from being awake to sleeping.</p>
+          <summary>How can I fall asleep faster naturally?</summary>
+          <p>To fall asleep faster without medications, practice parasympathetic breathing (such as the 4-7-8 method), utilize cognitive shuffling to disrupt looping thoughts, keep your bedroom below 68 degrees Fahrenheit, and avoid screens at least 45 minutes before sleep.</p>
         </details>
         <details class="faq-item">
-          <summary>What does "fall asleep" mean?</summary>
-          <p>To "fall asleep" means to unintentionally or naturally enter a state of sleep, transitioning from a state of conscious wakefulness into a resting, unconscious state.</p>
+          <summary>What is Cognitive Shuffling and how does it quiet racing thoughts?</summary>
+          <p>Cognitive Shuffling (Serial Diverse Imagining) is a technique pioneered by Dr. Luc Beaudoin. By visualizing a sequence of emotionally neutral, unrelated mental objects, you occupy working memory and mimic natural hypnagogic dreamlets, signaling to the brainstem that conditions are safe for sleep.</p>
         </details>
         <details class="faq-item">
-          <summary>Is it fall to sleep or fall asleep?</summary>
-          <p>The correct phrase is "fall asleep." While you can say "go to sleep," saying "fall to sleep" is grammatically incorrect in standard English.</p>
+          <summary>Can the Military Sleep Method help you fall asleep in 2 minutes?</summary>
+          <p>The Military Sleep Method, developed by Bud Winter for U.S. Navy aviators, teaches deep somatic relaxation: systematically relaxing facial muscles, dropping the shoulders, releasing limb tension, and visualizing a peaceful scene for 10 seconds. With practice, it reliably induces rapid sleep under stressful environments.</p>
         </details>
         <details class="faq-item">
-          <summary>Why does Gen Z sleep late?</summary>
-          <p>Gen Z often sleeps late due to a combination of delayed circadian rhythms common in young adults, increased nighttime screen time, digital stimulation, and "revenge bedtime procrastination", where people sacrifice sleep to reclaim personal time after a busy day.</p>
+          <summary>How do breathing exercises lower heart rate for sleep?</summary>
+          <p>Prolonging your exhalation activates the vagus nerve, which releases acetylcholine. This neurotransmitter decelerates sinoatrial node firing in the heart, lowering your pulse and blood pressure to initiate the parasympathetic rest-and-digest state.</p>
         </details>
         <details class="faq-item">
-          <summary>How to fall asleep faster?</summary>
-          <p>To fall asleep faster, you can use mental techniques like Cognitive Shuffling to distract your brain, practice deep breathing exercises (such as the 4-7-8 method) to lower your heart rate, and maintain a cool, completely dark room without blue light from screens.</p>
+          <summary>Why do people wake up at 3 AM with sudden anxiety?</summary>
+          <p>Between 3 AM and 4 AM, the body undergoes a natural dip in blood glucose accompanied by a preliminary spike in the diurnal cortisol rhythm. If you are stressed, this subtle cortisol rise can activate the amygdala and trigger an unexpected nocturnal adrenaline rush.</p>
         </details>
         <details class="faq-item">
-          <summary>How to fall asleep in 10 seconds?</summary>
-          <p>While falling asleep in literally 10 seconds is highly difficult, the military sleep method is designed to help you sleep rapidly. It involves consciously relaxing every muscle in your face, dropping your shoulders, exhaling deeply, and clearing your mind with a calming visualization.</p>
+          <summary>How do 90-minute sleep cycles affect morning energy?</summary>
+          <p>Human sleep naturally progresses in roughly 90-minute ultradian cycles from light NREM to deep slow-wave sleep and REM. Waking up during light sleep leaves you feeling energized, whereas waking up in the middle of deep slow-wave sleep causes intense sleep inertia and grogginess.</p>
         </details>
         <details class="faq-item">
-          <summary>Why do I fall asleep after I eat?</summary>
-          <p>Feeling tired after eating, known as postprandial somnolence, occurs because your body redirects blood flow to your digestive system. Consuming large meals or foods rich in carbohydrates and tryptophan also triggers the production of serotonin and melatonin, which make you sleepy.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Why can't I fall asleep?</summary>
-          <p>Inability to fall asleep is frequently caused by nighttime anxiety, stress, consuming caffeine late in the day, an inconsistent sleep schedule, or overstimulation from blue light emitted by phones and computers before bed.</p>
-        </details>
-        <details class="faq-item">
-          <summary>How long does it take to fall asleep?</summary>
-          <p>For a healthy adult, sleep latency (the time it takes to fall asleep) is typically between 10 to 20 minutes. If it consistently takes you longer than 30 minutes, you might be dealing with stress or insomnia.</p>
-        </details>
-        <details class="faq-item">
-          <summary>How to fall asleep instantly?</summary>
-          <p>Although instant sleep is biologically impossible unless you are severely sleep-deprived, you can achieve near-instant rest by combining progressive muscle relaxation with a mental distraction technique (like the Cognitive Shuffle) to quickly bypass racing thoughts.</p>
+          <summary>How long does typical sleep onset latency take?</summary>
+          <p>In clinical sleep medicine, a healthy adult typically takes between 10 and 20 minutes to fall asleep. Taking less than 5 minutes suggests acute sleep debt, while taking longer than 30 minutes regularly indicates heightened sympathetic nervous system arousal.</p>
         </details>
       </div>
     </div>
@@ -162,82 +204,58 @@ const features = [
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Is it correct to say I fall asleep?",
+        "name": "How can I fall asleep faster naturally?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "<p>Yes, &quot;fall asleep&quot; is the correct and most commonly used English phrase to describe the natural process of transitioning from being awake to sleeping.</p>"
+          "text": "<p>To fall asleep faster without medications, practice parasympathetic breathing (such as the 4-7-8 method), utilize cognitive shuffling to disrupt looping thoughts, keep your bedroom below 68 degrees Fahrenheit, and avoid screens at least 45 minutes before sleep.</p>"
         }
       },
       {
         "@type": "Question",
-        "name": "What does \"fall asleep\" mean?",
+        "name": "What is Cognitive Shuffling and how does it quiet racing thoughts?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "<p>To &quot;fall asleep&quot; means to unintentionally or naturally enter a state of sleep, transitioning from a state of conscious wakefulness into a resting, unconscious state.</p>"
+          "text": "<p>Cognitive Shuffling (Serial Diverse Imagining) is a technique pioneered by Dr. Luc Beaudoin. By visualizing a sequence of emotionally neutral, unrelated mental objects, you occupy working memory and mimic natural hypnagogic dreamlets, signaling to the brainstem that conditions are safe for sleep.</p>"
         }
       },
       {
         "@type": "Question",
-        "name": "Is it fall to sleep or fall asleep?",
+        "name": "Can the Military Sleep Method help you fall asleep in 2 minutes?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "<p>The correct phrase is &quot;fall asleep.&quot; While you can say &quot;go to sleep,&quot; saying &quot;fall to sleep&quot; is grammatically incorrect in standard English.</p>"
+          "text": "<p>The Military Sleep Method, developed by Bud Winter for U.S. Navy aviators, teaches deep somatic relaxation: systematically relaxing facial muscles, dropping the shoulders, releasing limb tension, and visualizing a peaceful scene for 10 seconds. With practice, it reliably induces rapid sleep under stressful environments.</p>"
         }
       },
       {
         "@type": "Question",
-        "name": "Why does Gen Z sleep late?",
+        "name": "How do breathing exercises lower heart rate for sleep?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "<p>Gen Z often sleeps late due to a combination of delayed circadian rhythms common in young adults, increased nighttime screen time, digital stimulation, and &quot;revenge bedtime procrastination&quot;, where people sacrifice sleep to reclaim personal time after a busy day.</p>"
+          "text": "<p>Prolonging your exhalation activates the vagus nerve, which releases acetylcholine. This neurotransmitter decelerates sinoatrial node firing in the heart, lowering your pulse and blood pressure to initiate the parasympathetic rest-and-digest state.</p>"
         }
       },
       {
         "@type": "Question",
-        "name": "How to fall asleep faster?",
+        "name": "Why do people wake up at 3 AM with sudden anxiety?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "<p>To fall asleep faster, you can use mental techniques like Cognitive Shuffling to distract your brain, practice deep breathing exercises (such as the 4-7-8 method) to lower your heart rate, and maintain a cool, completely dark room without blue light from screens.</p>"
+          "text": "<p>Between 3 AM and 4 AM, the body undergoes a natural dip in blood glucose accompanied by a preliminary spike in the diurnal cortisol rhythm. If you are stressed, this subtle cortisol rise can activate the amygdala and trigger an unexpected nocturnal adrenaline rush.</p>"
         }
       },
       {
         "@type": "Question",
-        "name": "How to fall asleep in 10 seconds?",
+        "name": "How do 90-minute sleep cycles affect morning energy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "<p>While falling asleep in literally 10 seconds is highly difficult, the military sleep method is designed to help you sleep rapidly. It involves consciously relaxing every muscle in your face, dropping your shoulders, exhaling deeply, and clearing your mind with a calming visualization.</p>"
+          "text": "<p>Human sleep naturally progresses in roughly 90-minute ultradian cycles from light NREM to deep slow-wave sleep and REM. Waking up during light sleep leaves you feeling energized, whereas waking up in the middle of deep slow-wave sleep causes intense sleep inertia and grogginess.</p>"
         }
       },
       {
         "@type": "Question",
-        "name": "Why do I fall asleep after I eat?",
+        "name": "How long does typical sleep onset latency take?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "<p>Feeling tired after eating, known as postprandial somnolence, occurs because your body redirects blood flow to your digestive system. Consuming large meals or foods rich in carbohydrates and tryptophan also triggers the production of serotonin and melatonin, which make you sleepy.</p>"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why can't I fall asleep?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "<p>Inability to fall asleep is frequently caused by nighttime anxiety, stress, consuming caffeine late in the day, an inconsistent sleep schedule, or overstimulation from blue light emitted by phones and computers before bed.</p>"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How long does it take to fall asleep?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "<p>For a healthy adult, sleep latency (the time it takes to fall asleep) is typically between 10 to 20 minutes. If it consistently takes you longer than 30 minutes, you might be dealing with stress or insomnia.</p>"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How to fall asleep instantly?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "<p>Although instant sleep is biologically impossible unless you are severely sleep-deprived, you can achieve near-instant rest by combining progressive muscle relaxation with a mental distraction technique (like the Cognitive Shuffle) to quickly bypass racing thoughts.</p>"
+          "text": "<p>In clinical sleep medicine, a healthy adult typically takes between 10 and 20 minutes to fall asleep. Taking less than 5 minutes suggests acute sleep debt, while taking longer than 30 minutes regularly indicates heightened sympathetic nervous system arousal.</p>"
         }
       }
     ]

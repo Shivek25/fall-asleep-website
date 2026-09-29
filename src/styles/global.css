@@ -601,6 +601,148 @@ body {
 }
 
 /* ============================================
+   Homepage Guides Section & Cross-Link Banners
+   ============================================ */
+
+.home__guides-section {
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.home__section-header {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.home__section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-drift-text);
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.home__section-desc {
+  font-size: 0.9375rem;
+  color: var(--color-drift-text-muted);
+  margin: 0 auto;
+  max-width: 32rem;
+  line-height: 1.5;
+}
+
+.home__guides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.home__guide-card {
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-drift-md);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.home__guide-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(110, 139, 239, 0.4);
+  background: rgba(30, 41, 59, 0.5);
+}
+
+.home__guide-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.home__guide-time {
+  font-size: 0.75rem;
+  color: var(--color-drift-text-dim);
+}
+
+.home__guide-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-drift-text);
+  margin: 0 0 0.5rem;
+  line-height: 1.35;
+}
+
+.home__guide-desc {
+  font-size: 0.8125rem;
+  color: var(--color-drift-text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.home__guides-cta {
+  text-align: center;
+}
+
+.home__guides-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 9999px;
+  background: rgba(110, 139, 239, 0.12);
+  border: 1px solid rgba(110, 139, 239, 0.3);
+  color: var(--color-drift-accent-glow);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.home__guides-btn:hover {
+  background: rgba(110, 139, 239, 0.22);
+  border-color: rgba(110, 139, 239, 0.5);
+  transform: translateY(-1px);
+}
+
+.tool-guide-banner {
+  background: rgba(110, 139, 239, 0.08);
+  border: 1px solid rgba(110, 139, 239, 0.2);
+  border-radius: var(--radius-drift-md);
+  padding: 0.875rem 1.25rem;
+  margin: 1.5rem auto;
+  max-width: 32rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.tool-guide-banner__text {
+  font-size: 0.8125rem;
+  color: var(--color-drift-text-muted);
+  margin: 0;
+}
+
+.tool-guide-banner__link {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-drift-accent-glow);
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: opacity 0.2s ease;
+}
+
+.tool-guide-banner__link:hover {
+  opacity: 0.8;
+}
+
+/* ============================================
    Global Footer Baseline & Navigation Clearance
    ============================================ */
 
